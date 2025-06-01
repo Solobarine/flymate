@@ -1,0 +1,11 @@
+Model Information:
+* title:	Boeing 737 AEW&C Prototype
+* source:	https://sketchfab.com/3d-models/boeing-737-aewc-prototype-bd2d73c132d14a609dbf13bd4cdc652e
+* author:	Muhamad Mirza Arrafi (https://sketchfab.com/nazidefenseforceofficial)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Boeing 737 AEW&C Prototype" (https://sketchfab.com/3d-models/boeing-737-aewc-prototype-bd2d73c132d14a609dbf13bd4cdc652e) by Muhamad Mirza Arrafi (https://sketchfab.com/nazidefenseforceofficial) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
