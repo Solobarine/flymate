@@ -1,0 +1,65 @@
+@import "tailwindcss";
+/** Set Dark Theme **/
+@custom-variant dark (&:where(.dark, .dark *));
+
+.layout {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+@theme {
+  --color-primary-100: oklch(54.1% 0.281 293.009);
+  --color-primary-200: oklch(49.1% 0.27 292.581);
+  --color-primary-300: oklch(38% 0.189 293.745);
+}
+
+.bg-background {
+  @apply bg-neutral-200 dark:bg-neutral-800;
+}
+
+.bg-background-transparent {
+  @apply bg-neutral-200/60 dark:bg-neutral-800/60;
+}
+
+.bg-foreground {
+  @apply bg-neutral-100 dark:bg-neutral-700;
+}
+
+.bg-highlight {
+  @apply bg-white dark:bg-neutral-600;
+}
+
+.text {
+  @apply text-neutral-800 dark:text-neutral-100;
+}
+
+.subtext {
+  @apply text-neutral-600 dark:text-neutral-300;
+}
+
+/** HOME **/
+.hero {
+  @apply grid;
+  min-height: 100dvh;
+}
+
+.destinations-list {
+  @apply grid gap-6;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.blogs-list {
+  @apply grid gap-6;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cta-metric {
+  @apply grid gap-2;
+  grid-template-columns: 1fr auto;
+}
+
+/** Footer **/
+.footer input::placeholder {
+  @apply text-neutral-300;
+}
