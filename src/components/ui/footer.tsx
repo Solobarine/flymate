@@ -10,7 +10,9 @@ const Footer = () => {
       <div className="sm:flex sm:items-start gap-3 justify-between sm:flex-wrap">
         <div>
           <h2 className="text-3xl font-semibold">Join Our Newsletter</h2>
-          <p className="mt-1 text-sm">Sign Up and we'll keep you upto date</p>
+          <p className="mt-1 text-sm">
+            Sign Up and we&apos;ll keep you upto date
+          </p>
         </div>
         <div className="border-b border-neutral-200 flex items-center p-2 mt-4 sm:mt-0">
           <input

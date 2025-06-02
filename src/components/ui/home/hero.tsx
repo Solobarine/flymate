@@ -2,12 +2,7 @@
 
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  Environment,
-  Sparkles,
-  CameraControls,
-  OrbitControls,
-} from "@react-three/drei";
+import { Environment, Sparkles, OrbitControls } from "@react-three/drei";
 import { Mouse } from "lucide-react";
 
 import Airplane from "../models/airplane";
