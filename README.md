@@ -15,6 +15,10 @@ A visually immersive travel landing page built with **Next.js**, **Tailwind CSS*
 
 ## 📸 Screenshots
 
+[![Hero Section](https://i.postimg.cc/rm2Tgcm4/Screenshot-2025-06-02-021742.png)](https://postimg.cc/R3d2VkwC)
+[![Destinations Section](https://i.postimg.cc/s24znqZ0/Screenshot-2025-06-02-021812.png)](https://postimg.cc/8Fcxcy4h)
+[![Call To Action](https://i.postimg.cc/k5m9vqDb/Screenshot-2025-06-02-021827.png)](https://postimg.cc/0zcL8gYk)
+
 ## 📦 Tech Stack
 
 - **Framework:** [Next.js](https://nextjs.org)
@@ -33,3 +37,11 @@ git clone https://github.com/solobarine/flymate.git
 cd flymate
 npm install
 ```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open http://localhost:3000 to see the app.
