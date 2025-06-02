@@ -6,6 +6,7 @@ import Footer from "@/components/ui/footer";
 import { ThemeProvider } from "@/components/ui/theme/provider";
 
 const lato = Lato({
+  subsets: ["latin"],
   variable: "--font-lato",
   weight: "100",
 });
