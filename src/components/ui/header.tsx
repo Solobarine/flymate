@@ -28,7 +28,7 @@ const Header = () => {
           loading="lazy"
           className="object-cover aspect-square"
         />
-        <h1 className="text-2xl font-semibold">Header</h1>
+        <h1 className="text-2xl font-semibold">Flymate</h1>
       </div>
 
       {/** DESKTOP NAV **/}
