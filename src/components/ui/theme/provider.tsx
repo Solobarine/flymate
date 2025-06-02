@@ -27,9 +27,7 @@ export function ThemeProvider({
   children,
   defaultTheme = "system",
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    !localStorage ? defaultTheme : (localStorage.getItem("theme") as Theme)
-  );
+  const [theme, setTheme] = useState<Theme>(defaultTheme);
 
   useEffect(() => {
     const root = window.document.documentElement;
